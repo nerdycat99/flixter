@@ -25,6 +25,7 @@ body {
   color: white;
 }
 
+
 .hero {
   background: image_url('the-gong.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -34,6 +35,23 @@ body {
   height: 370px;
   box-shadow: 0px 1px 3px #2a2a2a; 
 }
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  padding: 10px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin: 10px;
+}
+
 
 .frosty {
   background: rgba(54,61,64,0.75);
