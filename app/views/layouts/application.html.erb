@@ -54,9 +54,45 @@
     </div>
     <div id="footer">
       <div class="container">
-        <b>Teachers</b>
-        <br />
-        <%= link_to 'teach a course', new_instructor_course_path %>
+        <div class="row">
+          <div class="col-12 col-sm-3">
+            <b>Teachers</b>
+            <br />
+            <%= link_to 'teach a course', new_instructor_course_path %>
+            <br />
+            <%= link_to 'my dashboard', dashboard_path %>
+          </div>
+          <div class="col-12 col-sm-3">
+            <b>About</b>
+            <br />
+            <%= link_to 'team', '#' %>
+            <br />
+            <%= link_to 'careers', '#' %>
+          </div>
+          <div class="col-12 col-sm-3">
+            <b>Contact</b>
+            <br />
+            nev@test.com
+            <br />
+            An Address
+            <br />
+            A City and Code
+          </div>
+          <div class="col-12 col-sm-3 social-media">
+            <b>Social</b>
+            <br />
+            <br />
+            <%= link_to 'https://www.instagram.com/nuurdle' do %>
+              <span class="fa fa-instagram fa-2x social-media-icons"></span>
+            <% end %>
+            <%= link_to 'https://github.com/nerdycat99' do %>
+              <span class="fa fa-github-square fa- fa-2x social-media-icons"></span>
+            <% end %>
+            <%= link_to 'https://www.facebook.com/nuurdle' do %>
+              <span class="fa fa-facebook-square fa-2x social-media-icons"></span>
+            <% end %>
+          </div>
+        </div>
       </div>
     </div>
 
