@@ -34,6 +34,7 @@
             <% else %>
               <li class="nav-item">
                 <%= link_to 'log in', new_user_session_path %>
+                &nbsp;
                 <%= link_to 'sign up', new_user_registration_path %>  
               </li>
             <% end %>
@@ -67,9 +68,9 @@
             <br />
             <%= link_to 'privacy', privacy_path %>
             <br />
-            <%= link_to 'team', '#' %>
+            <%= link_to 'team', team_path %>
             <br />
-            <%= link_to 'careers', '#' %>
+            <%= link_to 'careers', careers_path %>
           </div>
           <div class="col-12 col-sm-3">
             <b>Contact</b>
@@ -84,13 +85,13 @@
             <b>Social</b>
             <br />
             <br />
-            <%= link_to 'https://www.instagram.com/nuurdle' do %>
+            <%= link_to 'https://www.instagram.com/nathasha_chabelnique' do %>
               <span class="fa fa-instagram fa-2x social-media-icons"></span>
             <% end %>
             <%= link_to 'https://github.com/nerdycat99' do %>
               <span class="fa fa-github-square fa- fa-2x social-media-icons"></span>
             <% end %>
-            <%= link_to 'https://www.facebook.com/nuurdle' do %>
+            <%= link_to 'https://www.facebook.com/Nathasha-Chabelnique-355705564632110' do %>
               <span class="fa fa-facebook-square fa-2x social-media-icons"></span>
             <% end %>
           </div>
